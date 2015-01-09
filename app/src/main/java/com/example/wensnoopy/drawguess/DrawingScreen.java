@@ -9,9 +9,9 @@ import android.view.View;
 public interface DrawingScreen {
 
     //public DrawingScreen getInstance();
-    public void createScreen();
-    public void updateScreen(byte[] imgByte);
-    public byte[] getPictureByteArray();
+    public void createScreen(DrawingView view);
+    public void updateScreen(DrawingView view, byte[] imgByte);
+    public byte[] getPictureByteArray(DrawingView view);
 
     //void init(Context , DrawingView );
 }

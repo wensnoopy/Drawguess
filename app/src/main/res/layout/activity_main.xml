@@ -16,30 +16,16 @@
 	    <ImageButton
 	    android:id="@+id/new_btn"
 	    android:layout_width="wrap_content"
-	    android:layout_height="fill_parent"
+	    android:layout_height="wrap_content"
 	    android:contentDescription="@string/start_new"
-	    android:src="@drawable/new_pic" />
+	    android:src="@drawable/ic_action_new" />
 
 	    <ImageButton
-	    android:id="@+id/draw_btn"
+	    android:id="@+id/refresh_btn"
 	    android:layout_width="wrap_content"
-	    android:layout_height="fill_parent"
-	    android:contentDescription="@string/brush"
-	    android:src="@drawable/brush" />
-
-	    <ImageButton
-	    android:id="@+id/eraser_btn"
-	    android:layout_width="wrap_content"
-	    android:layout_height="fill_parent"
+	    android:layout_height="wrap_content"
 	    android:contentDescription="@string/erase"
-	    android:src="@drawable/eraser" />
-
-	    <ImageButton
-	    android:id="@+id/save_btn"
-	    android:layout_width="wrap_content"
-	    android:layout_height="fill_parent"
-	    android:contentDescription="@string/save"
-	    android:src="@drawable/save" />
+	    android:src="@drawable/ic_action_refresh" />
 
 	</LinearLayout>
 
